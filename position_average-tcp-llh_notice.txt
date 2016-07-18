@@ -36,5 +36,3 @@ Après l'exécution de cela pour un peu de temps, vous pouvez voir la position a
 
 Je l'ai testé cela avec Atteindre l'intérieur et tous les sats dans le jaune (A cette époque, la position moyenne se déplaçait environ 0,1 mm par itération. Cela ne veut pas dire que cette position moyenne est de toute façon précise par nos normes, mais il devrait être assez proche. Ce qu'il ne dit est que la moyenne pour un couple de minutes est probablement assez bon et 20 minutes est tout simplement de perdre du temps!
 
-Ne hésitez pas à poster une meilleure version si vous en avez un! Il y a beaucoup de place à l'amélioration.
-
