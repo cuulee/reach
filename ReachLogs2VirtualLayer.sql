@@ -1,8 +1,12 @@
---rename solution.erb to solution.csv
---import solution.csv in Qgis
---open dbmanager-->virtualLayers-->QgisLayers
---open a SQL windows
--- copy paste and modify the FROM name
+--This script create a Qgis virtual layer with reach rtk logs for insert data on a postgis table
+--
+--Connect to your emlid reach rover and download logs (solution).
+  --rename solution_123.erb to solution_123.csv
+    --import solution_123.csv in Qgis
+      --open dbmanager-->virtualLayers-->QgisLayers
+        --open a SQL windows
+          -- copy paste this script and modify the FROM name
+            -- copy paste data on your db postgresql
 
 SELECT
 uuid(),
