@@ -2,9 +2,9 @@
 --import solution.csv in Qgis
 --open dbmanager-->virtualLayers-->QgisLayers
 --open a SQL windows
--- copy paste 
+-- copy paste and modify the FROM name
 
-select 
+SELECT
 uuid(),
 s.field_1 gps_week,
 s.field_2 gps_secondweek, 
@@ -22,4 +22,4 @@ s.field_31 sdeu,
 s.field_34 sdun,
 s.field_37 age,
 s.field_41 ratio
-from solution_201701121152 as s
+FROM solution_201701121152 as s
