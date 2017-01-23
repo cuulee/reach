@@ -1,5 +1,6 @@
 --This script create a Qgis virtual layer with reach rtk logs for insert data on a postgis table
---
+--Maintainer: Julien Ancelin
+-------------------------------------------------------
 --Connect to your emlid reach rover and download logs (solution).
   --rename solution_123.erb to solution_123.csv
     --import solution_123.csv in Qgis
